@@ -67,13 +67,11 @@ nav a:hover {
     text-align: center;
     padding-bottom: 20px;
     font-size: 22px;
-    font-weight: bold;
-    
+    font-weight: bold;    
 }
 
 p {
-    text-align: center;
-    
+    text-align: center;    
 }
 
 #missao {
@@ -99,9 +97,7 @@ em strong {
     display: inline-block;
     vertical-align: top;
     width: 20%;
-    margin-right: 15%;
-    
-    
+    margin-right: 15%;       
 }
 
 .itens {
