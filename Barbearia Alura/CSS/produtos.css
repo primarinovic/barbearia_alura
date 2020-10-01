@@ -1,3 +1,8 @@
+body {
+    background-color: #bbbbbb;
+} 
+
+
 header {
     background: #bbbbbb;
     padding: 20px 0;
@@ -36,7 +41,11 @@ nav a:hover {
 
 .produtos {
     width: 940px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px dotted black;
     margin: 0 auto;
+    margin-bottom: 30px;
     padding: 50px 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

@@ -1,3 +1,7 @@
+body {
+    background-color: #bbbbbb;
+} 
+
 header {
     background: #bbbbbb;
     padding: 20px 0;
@@ -32,6 +36,36 @@ nav a {
 nav a:hover {
     color: #C78C19;
     text-decoration: underline;
+}
+
+.conteudo {
+    width: 940px;
+    /*border: 1px dotted black;*/
+    border-radius: 10px;
+    background: #cac9c9;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* padding-left: 270px; */
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-left: 220px;
+    margin-bottom: 30px;
+}
+
+.conteudo h2 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.contatos {
+    width: 940px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+
+.contatos strong {
+    font-weight: bold;
 }
 
 footer {
