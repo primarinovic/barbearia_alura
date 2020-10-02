@@ -39,8 +39,10 @@ nav a:hover {
     text-decoration: underline;
 }
 
-#banner {
-    width: 100%;   
+.banner {
+    width: 100%; 
+    
+    
     
     /**border: 1px dotted white; **/
     
@@ -72,7 +74,8 @@ nav a:hover {
 }
 
 p {
-    text-align: center;    
+    text-align: center;
+    line-height: 1.5;    
 }
 
 #missao {
