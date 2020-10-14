@@ -1,5 +1,3 @@
-# html-css
-
 # Projeto Barbearia Alura
 
 ---
