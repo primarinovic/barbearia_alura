@@ -2,12 +2,10 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 } 
 
-
 header {
     background: #bbbbbb;
     padding: 20px 0;
 }
-
 
 .caixa {
     position: relative;
@@ -24,7 +22,7 @@ nav {
 nav li {
     display: inline;
     margin: 0 0 0 15px;  
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav a {
@@ -41,20 +39,32 @@ nav a:hover {
 }
 
 .banner {
-    width: 100%;
+    width: 100%;   
+    
+}
 
+.principal {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+    
 }
 
 .titulo-principal {
     text-align: center;
-    font-size: 2em;  
+    font-size: 2em;
     margin: 0 0 1em;
-
+    clear: left;
 }
 
 .principal p {
     margin: 0 0 1em;
-
+    
 }
 
 .principal strong {
@@ -65,68 +75,34 @@ nav a:hover {
     font-style: italic;
 }
 
-.imagembeneficios {
-    width: 60%;
+.beneficios {
+
+    width: 940px;
+    margin: 0 auto;
 }
 
-.produtos {
-    width: 940px;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    border: 1px dotted black;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    padding: 50px 0;
+.beneficios ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    
     
 }
 
-.produtos li {
-    display: inline-block;
+.itens {
+    font-style: italic;
     text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box; /*largura passa a ser 30% definitivamente, antes estava os 30% do width + 20px do padding*/
-    border: 2px solid #000000;
-    border-radius: 10px;
 }
 
-.produtos li:hover {
-    border-color: #C78C19;
-
-}
-
-.produtos li:active {
-    border-color: #088C19;
-}
-
-.produtos li:hover h2 {
-    font-size: 34px;
-}
-
-.produtos h2 {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.produto-descricao {
-    font-size: 18px;
-    padding: 30px 20px;
-
-}
-
-.produto-preco {
-    font-size: 22px;
-    font-weight: bold;
-    margin: 10px 0 0;
+.imagembeneficios {
+   width: 60%; 
 }
 
 footer {
     text-align: center;
     background-image: url(../Imagens/bg.jpg);
     padding: 40px 0;
-    
 }
 
 .copyright {
